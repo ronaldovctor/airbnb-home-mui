@@ -3,6 +3,7 @@ import React from 'react'
 import { dFlex, flexBetweenCenter } from '../themes/commonStyles'
 import Logo from './Logo'
 import { Container } from '@mui/material'
+import LocationSearch from './LocationSearch'
 
 function Header() {
 	return (
@@ -22,6 +23,7 @@ function Header() {
 					}}
 				>
 					<Logo />
+					<LocationSearch />
 				</Box>
 			</Container>
 		</Box>

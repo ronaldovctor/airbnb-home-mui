@@ -1,6 +1,6 @@
 import React from 'react'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
-import { pink } from '@mui/material/colors'
+import { grey, pink } from '@mui/material/colors'
 
 const theme = createTheme({
 	typography: {
@@ -57,7 +57,7 @@ const theme = createTheme({
 				p: 0,
 				disableRipple: true,
 			},
-			variants: 'text',
+			variant: 'text',
 		},
 		MuiTab: {
 			defaultProps: {
