@@ -1,4 +1,4 @@
-import { Box } from '@mui/system'
+import Box from '@mui/material/Box'
 import React from 'react'
 import { FaAirbnb } from 'react-icons/fa'
 import { flexCenter } from '../themes/commonStyles'

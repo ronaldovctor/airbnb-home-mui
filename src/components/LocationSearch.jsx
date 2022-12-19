@@ -1,5 +1,6 @@
 import { Button, Divider, Paper, Typography } from '@mui/material'
-import { Box, Stack } from '@mui/system'
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
 import { IoSearchCircleSharp } from 'react-icons/io5'
 import React from 'react'
 import { pink } from '@mui/material/colors'
