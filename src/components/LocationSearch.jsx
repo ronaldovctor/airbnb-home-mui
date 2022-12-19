@@ -18,7 +18,6 @@ function LocationSearch() {
 			sx={{
 				border: '1px solid #ddd',
 				borderRadius: 20,
-				ml: 15,
 				p: '4px',
 				boxShadow: '0 2px 10px #ddd',
 			}}
@@ -37,6 +36,7 @@ function LocationSearch() {
 							sx={{
 								color: (theme) => theme.palette.text.primary,
 								fontWeight: 'bold',
+								whiteSpace: 'nowrap',
 							}}
 						>
 							{choice.text}

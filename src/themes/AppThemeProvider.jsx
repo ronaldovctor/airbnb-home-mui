@@ -65,6 +65,13 @@ const theme = createTheme({
 			},
 		},
 	},
+	breakpoints: {
+		values: {
+			xs: 0,
+			md: 1010,
+			lg: 1600,
+		},
+	},
 })
 
 function AppThemeProvider(props) {
