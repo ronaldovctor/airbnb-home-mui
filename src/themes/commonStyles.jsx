@@ -47,9 +47,9 @@ export const displayOnDesktop = { display: { xs: 'none', md: 'block' } }
 /** Custom carousel styles */
 
 export const carouselDot = {
-	color: '#fff',
-	backgroundColor: '#000',
-	opacity: 0.5,
+	color: '#000',
+	backgroundColor: '#fff',
+	opacity: 1,
 	borderRadius: 10,
 	p: 1,
 	minWidth: 'auto',
@@ -63,9 +63,8 @@ export const fixedIcon = {
 }
 
 export const carouselImage = {
-	height: 275,
+	// height: '275',
+	minWidth: '400',
 	display: 'block',
 	overflow: 'hidden',
-	width: '100%',
-	borderRadius: 3,
 }

@@ -1,6 +1,6 @@
-.carouselCard .MuiMObileStepper-root {
+.carouselCard .MuiMobileStepper-root {
 	opacity: 0;
-	transition: all ease 1000ms;
+	transition: all ease 500ms;
 }
 
 .carouselCard:hover .MuiMobileStepper-root {
@@ -9,4 +9,27 @@
 
 .carouselCard:hover .MuiMobileStepper-dotActive {
 	background-color: #fff;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.swiper-slide {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.swiper-wrapper {
+	display: flex;
+}
+
+.swiper-slide img {
+	display: flex;
+	object-fit: cover;
 }
